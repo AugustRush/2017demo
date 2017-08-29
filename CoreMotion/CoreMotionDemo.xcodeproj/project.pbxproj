@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		972D226F1EB98ECB00473A5F /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972D226E1EB98ECB00473A5F /* KeyboardViewController.m */; };
+		972D22731EB98ECB00473A5F /* kEYBOARD.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 972D226B1EB98ECB00473A5F /* kEYBOARD.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		973BAE911EB083BB00F71F58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BAE901EB083BB00F71F58 /* main.m */; };
+		973BAE941EB083BB00F71F58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BAE931EB083BB00F71F58 /* AppDelegate.m */; };
+		973BAE971EB083BB00F71F58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 973BAE961EB083BB00F71F58 /* ViewController.m */; };
+		973BAE9A1EB083BB00F71F58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973BAE981EB083BB00F71F58 /* Main.storyboard */; };
+		973BAE9C1EB083BB00F71F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 973BAE9B1EB083BB00F71F58 /* Assets.xcassets */; };
+		973BAE9F1EB083BB00F71F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 973BAE9D1EB083BB00F71F58 /* LaunchScreen.storyboard */; };
+		973BAEED1EB0971B00F71F58 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 973BAEA01EB083BB00F71F58 /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		972D22711EB98ECB00473A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 973BAE841EB083BB00F71F58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972D226A1EB98ECB00473A5F;
+			remoteInfo = kEYBOARD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		973BAEB61EB0887F00F71F58 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				972D22731EB98ECB00473A5F /* kEYBOARD.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		972D226B1EB98ECB00473A5F /* kEYBOARD.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = kEYBOARD.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		972D226D1EB98ECB00473A5F /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		972D226E1EB98ECB00473A5F /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		972D22701EB98ECB00473A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		973BAE8C1EB083BB00F71F58 /* CoreMotionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMotionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		973BAE901EB083BB00F71F58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		973BAE921EB083BB00F71F58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		973BAE931EB083BB00F71F58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		973BAE951EB083BB00F71F58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		973BAE961EB083BB00F71F58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		973BAE991EB083BB00F71F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		973BAE9B1EB083BB00F71F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		973BAE9E1EB083BB00F71F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		973BAEA01EB083BB00F71F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		972D22681EB98ECB00473A5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973BAE891EB083BB00F71F58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		972D226C1EB98ECB00473A5F /* kEYBOARD */ = {
+			isa = PBXGroup;
+			children = (
+				972D226D1EB98ECB00473A5F /* KeyboardViewController.h */,
+				972D226E1EB98ECB00473A5F /* KeyboardViewController.m */,
+				972D22701EB98ECB00473A5F /* Info.plist */,
+			);
+			path = kEYBOARD;
+			sourceTree = "<group>";
+		};
+		973BAE831EB083BB00F71F58 = {
+			isa = PBXGroup;
+			children = (
+				973BAE8E1EB083BB00F71F58 /* CoreMotion */,
+				972D226C1EB98ECB00473A5F /* kEYBOARD */,
+				973BAE8D1EB083BB00F71F58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		973BAE8D1EB083BB00F71F58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				973BAE8C1EB083BB00F71F58 /* CoreMotionDemo.app */,
+				972D226B1EB98ECB00473A5F /* kEYBOARD.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		973BAE8E1EB083BB00F71F58 /* CoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				973BAE921EB083BB00F71F58 /* AppDelegate.h */,
+				973BAE931EB083BB00F71F58 /* AppDelegate.m */,
+				973BAE951EB083BB00F71F58 /* ViewController.h */,
+				973BAE961EB083BB00F71F58 /* ViewController.m */,
+				973BAE981EB083BB00F71F58 /* Main.storyboard */,
+				973BAE9B1EB083BB00F71F58 /* Assets.xcassets */,
+				973BAE9D1EB083BB00F71F58 /* LaunchScreen.storyboard */,
+				973BAEA01EB083BB00F71F58 /* Info.plist */,
+				973BAE8F1EB083BB00F71F58 /* Supporting Files */,
+			);
+			path = CoreMotion;
+			sourceTree = "<group>";
+		};
+		973BAE8F1EB083BB00F71F58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				973BAE901EB083BB00F71F58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		972D226A1EB98ECB00473A5F /* kEYBOARD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 972D22741EB98ECB00473A5F /* Build configuration list for PBXNativeTarget "kEYBOARD" */;
+			buildPhases = (
+				972D22671EB98ECB00473A5F /* Sources */,
+				972D22681EB98ECB00473A5F /* Frameworks */,
+				972D22691EB98ECB00473A5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kEYBOARD;
+			productName = kEYBOARD;
+			productReference = 972D226B1EB98ECB00473A5F /* kEYBOARD.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		973BAE8B1EB083BB00F71F58 /* CoreMotionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 973BAEA31EB083BB00F71F58 /* Build configuration list for PBXNativeTarget "CoreMotionDemo" */;
+			buildPhases = (
+				973BAE881EB083BB00F71F58 /* Sources */,
+				973BAE891EB083BB00F71F58 /* Frameworks */,
+				973BAE8A1EB083BB00F71F58 /* Resources */,
+				973BAEB61EB0887F00F71F58 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972D22721EB98ECB00473A5F /* PBXTargetDependency */,
+			);
+			name = CoreMotionDemo;
+			productName = CoreMotion;
+			productReference = 973BAE8C1EB083BB00F71F58 /* CoreMotionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		973BAE841EB083BB00F71F58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = August;
+				TargetAttributes = {
+					972D226A1EB98ECB00473A5F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2TV8FB59SP;
+						ProvisioningStyle = Automatic;
+					};
+					973BAE8B1EB083BB00F71F58 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2TV8FB59SP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 973BAE871EB083BB00F71F58 /* Build configuration list for PBXProject "CoreMotionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 973BAE831EB083BB00F71F58;
+			productRefGroup = 973BAE8D1EB083BB00F71F58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				973BAE8B1EB083BB00F71F58 /* CoreMotionDemo */,
+				972D226A1EB98ECB00473A5F /* kEYBOARD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		972D22691EB98ECB00473A5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973BAE8A1EB083BB00F71F58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973BAEED1EB0971B00F71F58 /* Info.plist in Resources */,
+				973BAE9F1EB083BB00F71F58 /* LaunchScreen.storyboard in Resources */,
+				973BAE9C1EB083BB00F71F58 /* Assets.xcassets in Resources */,
+				973BAE9A1EB083BB00F71F58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		972D22671EB98ECB00473A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				972D226F1EB98ECB00473A5F /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		973BAE881EB083BB00F71F58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973BAE971EB083BB00F71F58 /* ViewController.m in Sources */,
+				973BAE941EB083BB00F71F58 /* AppDelegate.m in Sources */,
+				973BAE911EB083BB00F71F58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		972D22721EB98ECB00473A5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972D226A1EB98ECB00473A5F /* kEYBOARD */;
+			targetProxy = 972D22711EB98ECB00473A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		973BAE981EB083BB00F71F58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973BAE991EB083BB00F71F58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		973BAE9D1EB083BB00F71F58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				973BAE9E1EB083BB00F71F58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		972D22751EB98ECB00473A5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2TV8FB59SP;
+				INFOPLIST_FILE = kEYBOARD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.CoreMotion.kEYBOARD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		972D22761EB98ECB00473A5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2TV8FB59SP;
+				INFOPLIST_FILE = kEYBOARD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.CoreMotion.kEYBOARD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		973BAEA11EB083BB00F71F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		973BAEA21EB083BB00F71F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		973BAEA41EB083BB00F71F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2TV8FB59SP;
+				INFOPLIST_FILE = CoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.CoreMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		973BAEA51EB083BB00F71F58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 2TV8FB59SP;
+				INFOPLIST_FILE = CoreMotion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.CoreMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		972D22741EB98ECB00473A5F /* Build configuration list for PBXNativeTarget "kEYBOARD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972D22751EB98ECB00473A5F /* Debug */,
+				972D22761EB98ECB00473A5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		973BAE871EB083BB00F71F58 /* Build configuration list for PBXProject "CoreMotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973BAEA11EB083BB00F71F58 /* Debug */,
+				973BAEA21EB083BB00F71F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		973BAEA31EB083BB00F71F58 /* Build configuration list for PBXNativeTarget "CoreMotionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				973BAEA41EB083BB00F71F58 /* Debug */,
+				973BAEA51EB083BB00F71F58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 973BAE841EB083BB00F71F58 /* Project object */;
+}

@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		974376BB1E8515D600358AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974376BA1E8515D600358AD9 /* AppDelegate.swift */; };
+		974376BD1E8515D600358AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974376BC1E8515D600358AD9 /* ViewController.swift */; };
+		974376C01E8515D600358AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974376BE1E8515D600358AD9 /* Main.storyboard */; };
+		974376C21E8515D600358AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 974376C11E8515D600358AD9 /* Assets.xcassets */; };
+		974376C51E8515D600358AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 974376C31E8515D600358AD9 /* LaunchScreen.storyboard */; };
+		974378121E85222200358AD9 /* libChipmunk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 974377E01E851C5900358AD9 /* libChipmunk.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		974377DF1E851C5900358AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974377DB1E851C5800358AD9 /* Chipmunk.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 974377CF1E851C5800358AD9;
+			remoteInfo = Chipmunk;
+		};
+		974378101E85220F00358AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 974377DB1E851C5800358AD9 /* Chipmunk.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 974376FC1E85186300358AD9;
+			remoteInfo = Chipmunk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		974376B71E8515D500358AD9 /* Biscuit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biscuit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		974376BA1E8515D600358AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		974376BC1E8515D600358AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		974376BF1E8515D600358AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		974376C11E8515D600358AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		974376C41E8515D600358AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		974376C61E8515D600358AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		974377DB1E851C5800358AD9 /* Chipmunk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Chipmunk.xcodeproj; path = Chipmunk/Chipmunk.xcodeproj; sourceTree = "<group>"; };
+		974378141E85232A00358AD9 /* ObjectiveC_Chipmunk_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveC_Chipmunk_header.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		974376B41E8515D500358AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974378121E85222200358AD9 /* libChipmunk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		974376AE1E8515D500358AD9 = {
+			isa = PBXGroup;
+			children = (
+				974377DB1E851C5800358AD9 /* Chipmunk.xcodeproj */,
+				974376B91E8515D500358AD9 /* Biscuit */,
+				974376B81E8515D500358AD9 /* Products */,
+				974377981E851A2700358AD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		974376B81E8515D500358AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974376B71E8515D500358AD9 /* Biscuit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974376B91E8515D500358AD9 /* Biscuit */ = {
+			isa = PBXGroup;
+			children = (
+				974378131E85230500358AD9 /* Sources */,
+				974376BA1E8515D600358AD9 /* AppDelegate.swift */,
+				974376BC1E8515D600358AD9 /* ViewController.swift */,
+				974376BE1E8515D600358AD9 /* Main.storyboard */,
+				974376C11E8515D600358AD9 /* Assets.xcassets */,
+				974376C31E8515D600358AD9 /* LaunchScreen.storyboard */,
+				974376C61E8515D600358AD9 /* Info.plist */,
+			);
+			path = Biscuit;
+			sourceTree = "<group>";
+		};
+		974377981E851A2700358AD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		974377DC1E851C5800358AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				974377E01E851C5900358AD9 /* libChipmunk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		974378131E85230500358AD9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				974378141E85232A00358AD9 /* ObjectiveC_Chipmunk_header.h */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		974376B61E8515D500358AD9 /* Biscuit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 974376C91E8515D600358AD9 /* Build configuration list for PBXNativeTarget "Biscuit" */;
+			buildPhases = (
+				974376B31E8515D500358AD9 /* Sources */,
+				974376B41E8515D500358AD9 /* Frameworks */,
+				974376B51E8515D500358AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974378111E85220F00358AD9 /* PBXTargetDependency */,
+			);
+			name = Biscuit;
+			productName = Biscuit;
+			productReference = 974376B71E8515D500358AD9 /* Biscuit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		974376AF1E8515D500358AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = August;
+				TargetAttributes = {
+					974376B61E8515D500358AD9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y2BAKEHXE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 974376B21E8515D500358AD9 /* Build configuration list for PBXProject "Biscuit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 974376AE1E8515D500358AD9;
+			productRefGroup = 974376B81E8515D500358AD9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 974377DC1E851C5800358AD9 /* Products */;
+					ProjectRef = 974377DB1E851C5800358AD9 /* Chipmunk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				974376B61E8515D500358AD9 /* Biscuit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		974377E01E851C5900358AD9 /* libChipmunk.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libChipmunk.a;
+			remoteRef = 974377DF1E851C5900358AD9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		974376B51E8515D500358AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974376C51E8515D600358AD9 /* LaunchScreen.storyboard in Resources */,
+				974376C21E8515D600358AD9 /* Assets.xcassets in Resources */,
+				974376C01E8515D600358AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		974376B31E8515D500358AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				974376BD1E8515D600358AD9 /* ViewController.swift in Sources */,
+				974376BB1E8515D600358AD9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		974378111E85220F00358AD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Chipmunk;
+			targetProxy = 974378101E85220F00358AD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		974376BE1E8515D600358AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974376BF1E8515D600358AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		974376C31E8515D600358AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				974376C41E8515D600358AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		974376C71E8515D600358AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		974376C81E8515D600358AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		974376CA1E8515D600358AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2BAKEHXE4;
+				INFOPLIST_FILE = Biscuit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Biscuit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/baidu/Test Demos 2017/Biscuit/Sources/ObjectiveC_Chipmunk_header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Chipmunk\"/**";
+			};
+			name = Debug;
+		};
+		974376CB1E8515D600358AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2BAKEHXE4;
+				INFOPLIST_FILE = Biscuit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Biscuit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/baidu/Test Demos 2017/Biscuit/Sources/ObjectiveC_Chipmunk_header.h";
+				SWIFT_VERSION = 3.0;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Chipmunk\"/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		974376B21E8515D500358AD9 /* Build configuration list for PBXProject "Biscuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974376C71E8515D600358AD9 /* Debug */,
+				974376C81E8515D600358AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		974376C91E8515D600358AD9 /* Build configuration list for PBXNativeTarget "Biscuit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974376CA1E8515D600358AD9 /* Debug */,
+				974376CB1E8515D600358AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 974376AF1E8515D500358AD9 /* Project object */;
+}
