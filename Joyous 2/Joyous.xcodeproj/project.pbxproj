@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		979B4C761F3D54F700A92E7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4C751F3D54F700A92E7F /* AppDelegate.swift */; };
+		979B4C781F3D54F700A92E7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4C771F3D54F700A92E7F /* ViewController.swift */; };
+		979B4C7B1F3D54F700A92E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979B4C791F3D54F700A92E7F /* Main.storyboard */; };
+		979B4C7D1F3D54F700A92E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 979B4C7C1F3D54F700A92E7F /* Assets.xcassets */; };
+		979B4C801F3D54F700A92E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979B4C7E1F3D54F700A92E7F /* LaunchScreen.storyboard */; };
+		979B4C891F3D606800A92E7F /* 周杰伦-东风破.ape in Resources */ = {isa = PBXBuildFile; fileRef = 979B4C881F3D606800A92E7F /* 周杰伦-东风破.ape */; };
+		979B4C8D1F3D89B900A92E7F /* AudioQueueController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4C8C1F3D89B900A92E7F /* AudioQueueController.swift */; };
+		979B4C8F1F3DD4D700A92E7F /* sourcePCM.aif in Resources */ = {isa = PBXBuildFile; fileRef = 979B4C8E1F3DD4D700A92E7F /* sourcePCM.aif */; };
+		979B4C951F3EA37E00A92E7F /* JoyousPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979B4C941F3EA37E00A92E7F /* JoyousPlayer.swift */; };
+		97CC69541F3F4162009687A2 /* bellz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 97CC69531F3F4162009687A2 /* bellz.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		979B4C721F3D54F700A92E7F /* Joyous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Joyous.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		979B4C751F3D54F700A92E7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		979B4C771F3D54F700A92E7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		979B4C7A1F3D54F700A92E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		979B4C7C1F3D54F700A92E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		979B4C7F1F3D54F700A92E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		979B4C811F3D54F700A92E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		979B4C881F3D606800A92E7F /* 周杰伦-东风破.ape */ = {isa = PBXFileReference; lastKnownFileType = file; path = "周杰伦-东风破.ape"; sourceTree = "<group>"; };
+		979B4C8C1F3D89B900A92E7F /* AudioQueueController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioQueueController.swift; sourceTree = "<group>"; };
+		979B4C8E1F3DD4D700A92E7F /* sourcePCM.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = sourcePCM.aif; sourceTree = "<group>"; };
+		979B4C941F3EA37E00A92E7F /* JoyousPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoyousPlayer.swift; sourceTree = "<group>"; };
+		97CC69531F3F4162009687A2 /* bellz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bellz.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		979B4C6F1F3D54F700A92E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		979B4C691F3D54F700A92E7F = {
+			isa = PBXGroup;
+			children = (
+				979B4C741F3D54F700A92E7F /* Joyous */,
+				979B4C731F3D54F700A92E7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		979B4C731F3D54F700A92E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				979B4C721F3D54F700A92E7F /* Joyous.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		979B4C741F3D54F700A92E7F /* Joyous */ = {
+			isa = PBXGroup;
+			children = (
+				979B4C871F3D55D700A92E7F /* AudioPlayer */,
+				979B4C751F3D54F700A92E7F /* AppDelegate.swift */,
+				979B4C771F3D54F700A92E7F /* ViewController.swift */,
+				979B4C791F3D54F700A92E7F /* Main.storyboard */,
+				979B4C7C1F3D54F700A92E7F /* Assets.xcassets */,
+				979B4C881F3D606800A92E7F /* 周杰伦-东风破.ape */,
+				97CC69531F3F4162009687A2 /* bellz.mp3 */,
+				979B4C8E1F3DD4D700A92E7F /* sourcePCM.aif */,
+				979B4C7E1F3D54F700A92E7F /* LaunchScreen.storyboard */,
+				979B4C811F3D54F700A92E7F /* Info.plist */,
+			);
+			path = Joyous;
+			sourceTree = "<group>";
+		};
+		979B4C871F3D55D700A92E7F /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				979B4C941F3EA37E00A92E7F /* JoyousPlayer.swift */,
+				979B4C8C1F3D89B900A92E7F /* AudioQueueController.swift */,
+			);
+			path = AudioPlayer;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		979B4C711F3D54F700A92E7F /* Joyous */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979B4C841F3D54F700A92E7F /* Build configuration list for PBXNativeTarget "Joyous" */;
+			buildPhases = (
+				979B4C6E1F3D54F700A92E7F /* Sources */,
+				979B4C6F1F3D54F700A92E7F /* Frameworks */,
+				979B4C701F3D54F700A92E7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Joyous;
+			productName = Joyous;
+			productReference = 979B4C721F3D54F700A92E7F /* Joyous.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		979B4C6A1F3D54F700A92E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = August;
+				TargetAttributes = {
+					979B4C711F3D54F700A92E7F = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = Y2BAKEHXE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 979B4C6D1F3D54F700A92E7F /* Build configuration list for PBXProject "Joyous" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 979B4C691F3D54F700A92E7F;
+			productRefGroup = 979B4C731F3D54F700A92E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				979B4C711F3D54F700A92E7F /* Joyous */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		979B4C701F3D54F700A92E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4C891F3D606800A92E7F /* 周杰伦-东风破.ape in Resources */,
+				979B4C8F1F3DD4D700A92E7F /* sourcePCM.aif in Resources */,
+				979B4C801F3D54F700A92E7F /* LaunchScreen.storyboard in Resources */,
+				979B4C7D1F3D54F700A92E7F /* Assets.xcassets in Resources */,
+				979B4C7B1F3D54F700A92E7F /* Main.storyboard in Resources */,
+				97CC69541F3F4162009687A2 /* bellz.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		979B4C6E1F3D54F700A92E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				979B4C781F3D54F700A92E7F /* ViewController.swift in Sources */,
+				979B4C8D1F3D89B900A92E7F /* AudioQueueController.swift in Sources */,
+				979B4C951F3EA37E00A92E7F /* JoyousPlayer.swift in Sources */,
+				979B4C761F3D54F700A92E7F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		979B4C791F3D54F700A92E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979B4C7A1F3D54F700A92E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		979B4C7E1F3D54F700A92E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				979B4C7F1F3D54F700A92E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		979B4C821F3D54F700A92E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		979B4C831F3D54F700A92E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979B4C851F3D54F700A92E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2BAKEHXE4;
+				INFOPLIST_FILE = Joyous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Joyous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		979B4C861F3D54F700A92E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y2BAKEHXE4;
+				INFOPLIST_FILE = Joyous/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AR.Joyous;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		979B4C6D1F3D54F700A92E7F /* Build configuration list for PBXProject "Joyous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4C821F3D54F700A92E7F /* Debug */,
+				979B4C831F3D54F700A92E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979B4C841F3D54F700A92E7F /* Build configuration list for PBXNativeTarget "Joyous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				979B4C851F3D54F700A92E7F /* Debug */,
+				979B4C861F3D54F700A92E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 979B4C6A1F3D54F700A92E7F /* Project object */;
+}
