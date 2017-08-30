@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>My List</title>
+</head>
+<body>
+	<ul id="MyList">
+		<li>ONE</li>
+		<li>Two</li>
+		<li>Three</li>
+	</ul>
+	<button onclick="addLi()">添加Li</button>
+</body>
+<script type="text/javascript">
+	function addLi() {
+		let list = document.getElementById('MyList');
+		var newE = document.createElement("li");
+		let textNode = document.createTextNode(list.toString());
+		newE.appendChild(textNode);
+		// list.appendChild(newE);
+		list.insertBefore(newE,list.childNodes[2]);
+	}
+</script>
+</html>

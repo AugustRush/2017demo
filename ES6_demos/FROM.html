@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<FORM>
+		<p>first name: <input type="text" id="fname0"></p>
+		<p>last name: <input type="text" id="lname0"></p>
+		<button onclick="commit()">提交一下</button>
+	</FORM>
+	<div>
+		<p>first name: <input type="text" id="fname"></p>
+		<p>last name: <input type="text" id="lname"></p>
+		<button onclick="commit()">提交一下</button>
+	</div>
+		
+</body>
+<script type="text/javascript">
+	function commit() {
+		let node = document.getElementById('fname');
+		let node1 = document.getElementById('lname');
+	  	let text = node.value;
+	  	document.getElementById('lname').value = text + ' Heool';
+	}
+</script>
+</html>
