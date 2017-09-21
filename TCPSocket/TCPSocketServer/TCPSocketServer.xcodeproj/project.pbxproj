@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACCAEDA01DB8B0E8005D06F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAED9F1DB8B0E8005D06F6 /* main.m */; };
+		ACCAEDA31DB8B0E9005D06F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEDA21DB8B0E9005D06F6 /* AppDelegate.m */; };
+		ACCAEDA61DB8B0E9005D06F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEDA51DB8B0E9005D06F6 /* ViewController.m */; };
+		ACCAEDA91DB8B0E9005D06F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCAEDA71DB8B0E9005D06F6 /* Main.storyboard */; };
+		ACCAEDAB1DB8B0E9005D06F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCAEDAA1DB8B0E9005D06F6 /* Assets.xcassets */; };
+		ACCAEDAE1DB8B0E9005D06F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACCAEDAC1DB8B0E9005D06F6 /* LaunchScreen.storyboard */; };
+		ACCAEDBA1DB8B13E005D06F6 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEDB71DB8B13E005D06F6 /* AsyncSocket.m */; settings = {ASSET_TAGS = (); }; };
+		ACCAEDBB1DB8B13E005D06F6 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEDB91DB8B13E005D06F6 /* AsyncUdpSocket.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACCAED9B1DB8B0E8005D06F6 /* TCPSocketServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCPSocketServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCAED9F1DB8B0E8005D06F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACCAEDA11DB8B0E9005D06F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACCAEDA21DB8B0E9005D06F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACCAEDA41DB8B0E9005D06F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACCAEDA51DB8B0E9005D06F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACCAEDA81DB8B0E9005D06F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACCAEDAA1DB8B0E9005D06F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACCAEDAD1DB8B0E9005D06F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACCAEDAF1DB8B0E9005D06F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCAEDB61DB8B13E005D06F6 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		ACCAEDB71DB8B13E005D06F6 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		ACCAEDB81DB8B13E005D06F6 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncUdpSocket.h; sourceTree = "<group>"; };
+		ACCAEDB91DB8B13E005D06F6 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACCAED981DB8B0E8005D06F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACCAED921DB8B0E8005D06F6 = {
+			isa = PBXGroup;
+			children = (
+				ACCAEDB51DB8B13E005D06F6 /* socket */,
+				ACCAED9D1DB8B0E8005D06F6 /* TCPSocketServer */,
+				ACCAED9C1DB8B0E8005D06F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACCAED9C1DB8B0E8005D06F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAED9B1DB8B0E8005D06F6 /* TCPSocketServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACCAED9D1DB8B0E8005D06F6 /* TCPSocketServer */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAEDA11DB8B0E9005D06F6 /* AppDelegate.h */,
+				ACCAEDA21DB8B0E9005D06F6 /* AppDelegate.m */,
+				ACCAEDA41DB8B0E9005D06F6 /* ViewController.h */,
+				ACCAEDA51DB8B0E9005D06F6 /* ViewController.m */,
+				ACCAEDA71DB8B0E9005D06F6 /* Main.storyboard */,
+				ACCAEDAA1DB8B0E9005D06F6 /* Assets.xcassets */,
+				ACCAEDAC1DB8B0E9005D06F6 /* LaunchScreen.storyboard */,
+				ACCAEDAF1DB8B0E9005D06F6 /* Info.plist */,
+				ACCAED9E1DB8B0E8005D06F6 /* Supporting Files */,
+			);
+			path = TCPSocketServer;
+			sourceTree = "<group>";
+		};
+		ACCAED9E1DB8B0E8005D06F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAED9F1DB8B0E8005D06F6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACCAEDB51DB8B13E005D06F6 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAEDB61DB8B13E005D06F6 /* AsyncSocket.h */,
+				ACCAEDB71DB8B13E005D06F6 /* AsyncSocket.m */,
+				ACCAEDB81DB8B13E005D06F6 /* AsyncUdpSocket.h */,
+				ACCAEDB91DB8B13E005D06F6 /* AsyncUdpSocket.m */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACCAED9A1DB8B0E8005D06F6 /* TCPSocketServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACCAEDB21DB8B0E9005D06F6 /* Build configuration list for PBXNativeTarget "TCPSocketServer" */;
+			buildPhases = (
+				ACCAED971DB8B0E8005D06F6 /* Sources */,
+				ACCAED981DB8B0E8005D06F6 /* Frameworks */,
+				ACCAED991DB8B0E8005D06F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TCPSocketServer;
+			productName = TCPSocketServer;
+			productReference = ACCAED9B1DB8B0E8005D06F6 /* TCPSocketServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACCAED931DB8B0E8005D06F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = scasy_wang;
+				TargetAttributes = {
+					ACCAED9A1DB8B0E8005D06F6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = ACCAED961DB8B0E8005D06F6 /* Build configuration list for PBXProject "TCPSocketServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACCAED921DB8B0E8005D06F6;
+			productRefGroup = ACCAED9C1DB8B0E8005D06F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACCAED9A1DB8B0E8005D06F6 /* TCPSocketServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACCAED991DB8B0E8005D06F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCAEDAE1DB8B0E9005D06F6 /* LaunchScreen.storyboard in Resources */,
+				ACCAEDAB1DB8B0E9005D06F6 /* Assets.xcassets in Resources */,
+				ACCAEDA91DB8B0E9005D06F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACCAED971DB8B0E8005D06F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACCAEDA61DB8B0E9005D06F6 /* ViewController.m in Sources */,
+				ACCAEDBB1DB8B13E005D06F6 /* AsyncUdpSocket.m in Sources */,
+				ACCAEDA31DB8B0E9005D06F6 /* AppDelegate.m in Sources */,
+				ACCAEDA01DB8B0E8005D06F6 /* main.m in Sources */,
+				ACCAEDBA1DB8B13E005D06F6 /* AsyncSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACCAEDA71DB8B0E9005D06F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCAEDA81DB8B0E9005D06F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACCAEDAC1DB8B0E9005D06F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACCAEDAD1DB8B0E9005D06F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACCAEDB01DB8B0E9005D06F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACCAEDB11DB8B0E9005D06F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACCAEDB31DB8B0E9005D06F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCPSocketServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sikaibo.TCPSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACCAEDB41DB8B0E9005D06F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TCPSocketServer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sikaibo.TCPSocketServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACCAED961DB8B0E8005D06F6 /* Build configuration list for PBXProject "TCPSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCAEDB01DB8B0E9005D06F6 /* Debug */,
+				ACCAEDB11DB8B0E9005D06F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACCAEDB21DB8B0E9005D06F6 /* Build configuration list for PBXNativeTarget "TCPSocketServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACCAEDB31DB8B0E9005D06F6 /* Debug */,
+				ACCAEDB41DB8B0E9005D06F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACCAED931DB8B0E8005D06F6 /* Project object */;
+}
